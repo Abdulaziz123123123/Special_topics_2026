@@ -1,0 +1,23 @@
+{
+    "original_video": "c:\\Users\\abdul\\Desktop\\6th Semester\\Special topics\\A3_Pipeline\\DATA\\videos\\id0001\\English\\h_vamljclHE\\00000.avi",
+    "generated_video": "c:\\Users\\abdul\\Desktop\\6th Semester\\Special topics\\A3_Pipeline\\outputs\\video_lipsync\\sample_lipsync_full_de.mp4",
+    "original_frame_embeddings_path": "c:\\Users\\abdul\\Desktop\\6th Semester\\Special topics\\A3_Pipeline\\outputs\\embeddings\\visual_facenet\\sample_original_facenet_frame_embeddings.npy",
+    "generated_frame_embeddings_path": "c:\\Users\\abdul\\Desktop\\6th Semester\\Special topics\\A3_Pipeline\\outputs\\embeddings\\visual_facenet\\sample_generated_facenet_frame_embeddings.npy",
+    "original_video_embedding_path": "c:\\Users\\abdul\\Desktop\\6th Semester\\Special topics\\A3_Pipeline\\outputs\\embeddings\\visual_facenet\\sample_original_facenet_video_embedding.npy",
+    "generated_video_embedding_path": "c:\\Users\\abdul\\Desktop\\6th Semester\\Special topics\\A3_Pipeline\\outputs\\embeddings\\visual_facenet\\sample_generated_facenet_video_embedding.npy",
+    "original_frame_embeddings_shape": [
+        32,
+        512
+    ],
+    "generated_frame_embeddings_shape": [
+        32,
+        512
+    ],
+    "original_video_embedding_shape": [
+        512
+    ],
+    "generated_video_embedding_shape": [
+        512
+    ],
+    "cosine_similarity_original_vs_generated_visual": 0.9805
+}

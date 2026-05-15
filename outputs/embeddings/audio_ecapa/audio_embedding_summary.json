@@ -1,0 +1,13 @@
+{
+    "original_audio": "c:\\Users\\abdul\\Desktop\\6th Semester\\Special topics\\A3_Pipeline\\outputs\\audio_original\\sample_original.wav",
+    "generated_audio": "c:\\Users\\abdul\\Desktop\\6th Semester\\Special topics\\A3_Pipeline\\outputs\\audio_generated\\sample_generated_de_full_safe_matched.wav",
+    "original_embedding_path": "c:\\Users\\abdul\\Desktop\\6th Semester\\Special topics\\A3_Pipeline\\outputs\\embeddings\\audio_ecapa\\sample_original_audio_ecapa.npy",
+    "generated_embedding_path": "c:\\Users\\abdul\\Desktop\\6th Semester\\Special topics\\A3_Pipeline\\outputs\\embeddings\\audio_ecapa\\sample_generated_audio_ecapa.npy",
+    "original_embedding_shape": [
+        192
+    ],
+    "generated_embedding_shape": [
+        192
+    ],
+    "cosine_similarity_original_vs_generated": 0.6962
+}
