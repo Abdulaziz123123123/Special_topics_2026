@@ -1,0 +1,10 @@
+{
+    "number_of_identities": 36,
+    "minimum_real_samples": 3,
+    "maximum_real_samples": 155,
+    "mean_real_samples": 37.83,
+    "median_real_samples": 31,
+    "recommended_target_per_identity": 50,
+    "total_synthetic_needed_recommended_50": 708,
+    "csv_output": "c:\\Users\\abdul\\Desktop\\6th Semester\\Special topics\\A3\\outputs\\task4_synthetic_data_analysis\\synthetic_needed_per_identity.csv"
+}

@@ -1,0 +1,34 @@
+C:\Users\abdul\Desktop\6th Semester\Special topics\polysim-main\FOP>python main.py
+[INFO][Experiment] === Experiment started ===
+[INFO][Experiment] Seed=1 | Device=cpu | Fusion=linear | Version=v3 | Train_Lang=German | #Classes=36 | UnSeen_Lang=English | Missing=face | Ratio=0.10
+[INFO][Experiment] Train CSV: ./feature_tracker/v3_train_German.csv
+[INFO][Experiment] Test  CSV: ./feature_tracker/v3_test_German.csv
+[INFO][Experiment] Unseen CSV: ./feature_tracker/v3_test_English.csv
+[INFO][Experiment] Feature dimensions | Audio=192 | Face=512
+[INFO][Experiment] Model initialized | Params=0.38M
+C:\Users\abdul\miniconda3\Lib\site-packages\transformers\utils\generic.py:441: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+[INFO][Experiment] === Training with alpha=0.000 ===
+[INFO][Experiment] [α=0.000] Epoch 000 | Loss 2.3622 | Seen 43.27 | Unseen 23.28
+[INFO][Experiment] [α=0.000] Epoch 001 | Loss 0.5826 | Seen 76.61 | Unseen 78.45
+[INFO][Experiment] [α=0.000] Epoch 002 | Loss 0.1822 | Seen 80.70 | Unseen 81.90
+[INFO][Experiment] [α=0.000] Epoch 003 | Loss 0.0869 | Seen 83.63 | Unseen 93.97
+[INFO][Experiment] [α=0.000] Epoch 004 | Loss 0.0433 | Seen 85.96 | Unseen 94.40
+[INFO][Experiment] [α=0.000] Epoch 005 | Loss 0.0295 | Seen 87.13 | Unseen 95.26
+[INFO][Experiment] [α=0.000] Epoch 006 | Loss 0.0224 | Seen 86.26 | Unseen 93.97
+[INFO][Experiment] [α=0.000] Epoch 007 | Loss 0.0105 | Seen 87.72 | Unseen 94.83
+[INFO][Experiment] [α=0.000] Epoch 008 | Loss 0.0141 | Seen 87.13 | Unseen 96.12
+[INFO][Experiment] [α=0.000] Epoch 009 | Loss 0.0127 | Seen 87.13 | Unseen 95.69
+[INFO][Experiment] [α=0.000] Epoch 010 | Loss 0.0139 | Seen 89.77 | Unseen 95.69
+[INFO][Experiment] [α=0.000] Epoch 011 | Loss 0.0067 | Seen 88.89 | Unseen 94.83
+[INFO][Experiment] [α=0.000] Epoch 012 | Loss 0.0045 | Seen 88.01 | Unseen 94.83
+[INFO][Experiment] [α=0.000] Epoch 013 | Loss 0.0066 | Seen 88.89 | Unseen 95.26
+[INFO][Experiment] [α=0.000] Epoch 014 | Loss 0.0069 | Seen 88.89 | Unseen 95.69
+[INFO][Experiment] [α=0.000] Epoch 015 | Loss 0.0045 | Seen 88.30 | Unseen 94.83
+[INFO][Experiment] [α=0.000] Epoch 016 | Loss 0.0023 | Seen 88.89 | Unseen 95.69
+[INFO][Experiment] [α=0.000] Epoch 017 | Loss 0.0063 | Seen 88.30 | Unseen 95.26
+[INFO][Experiment] [α=0.000] Epoch 018 | Loss 0.0027 | Seen 86.84 | Unseen 94.83
+[INFO][Experiment] [α=0.000] Epoch 019 | Loss 0.0037 | Seen 86.84 | Unseen 94.83
+[INFO][Experiment] [α=0.000] Epoch 020 | Loss 0.0018 | Seen 88.30 | Unseen 94.83
+[INFO][Experiment] Early stopping triggered at epoch 20(best seen accuracy = 89.77)
+[INFO][Experiment] === Experiment finished ===

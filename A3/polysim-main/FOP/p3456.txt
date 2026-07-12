@@ -1,0 +1,249 @@
+C:\Users\abdul\Desktop\6th Semester\Special topics\polysim-main\FOP>python main.py
+[INFO][Experiment] === Experiment started ===
+[INFO][Experiment] Seed=1 | Device=cpu | Fusion=linear | Version=v3 | Train_Lang=German | #Classes=36 | UnSeen_Lang=English | Missing=face | Ratio=0.00
+[INFO][Experiment] Train CSV: ./feature_tracker/v3_train_German.csv
+[INFO][Experiment] Test  CSV: ./feature_tracker/v3_test_German.csv
+[INFO][Experiment] Unseen CSV: ./feature_tracker/v3_test_English.csv
+[INFO][Experiment] Feature dimensions | Audio=192 | Face=512
+[INFO][Experiment] Model initialized | Params=0.38M
+C:\Users\abdul\miniconda3\Lib\site-packages\transformers\utils\generic.py:441: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+[INFO][Experiment] === Training with alpha=0.000 ===
+[INFO][Experiment] [alpha=0.000] Epoch 000 | Loss 2.2795 | P3 42.98 | P4 29.82 | P5 27.59 | P6 12.07
+[INFO][Experiment] [alpha=0.000] Epoch 001 | Loss 0.4503 | P3 76.32 | P4 39.18 | P5 78.88 | P6 28.02
+[INFO][Experiment] [alpha=0.000] Epoch 002 | Loss 0.1084 | P3 82.16 | P4 55.26 | P5 86.21 | P6 46.55
+[INFO][Experiment] [alpha=0.000] Epoch 003 | Loss 0.0410 | P3 90.94 | P4 55.85 | P5 94.40 | P6 43.97
+[INFO][Experiment] [alpha=0.000] Epoch 004 | Loss 0.0176 | P3 92.98 | P4 55.56 | P5 95.26 | P6 47.84
+[INFO][Experiment] [alpha=0.000] Epoch 005 | Loss 0.0095 | P3 94.44 | P4 69.88 | P5 94.40 | P6 63.79
+[INFO][Experiment] [alpha=0.000] Epoch 006 | Loss 0.0060 | P3 96.20 | P4 73.10 | P5 95.69 | P6 67.67
+[INFO][Experiment] [alpha=0.000] Epoch 007 | Loss 0.0041 | P3 97.08 | P4 69.01 | P5 94.83 | P6 63.79
+[INFO][Experiment] [alpha=0.000] Epoch 008 | Loss 0.0032 | P3 97.08 | P4 65.79 | P5 96.12 | P6 62.07
+[INFO][Experiment] [alpha=0.000] Epoch 009 | Loss 0.0024 | P3 96.78 | P4 71.05 | P5 94.83 | P6 69.83
+[INFO][Experiment] [alpha=0.000] Epoch 010 | Loss 0.0022 | P3 96.78 | P4 68.13 | P5 94.40 | P6 62.07
+[INFO][Experiment] [alpha=0.000] Epoch 011 | Loss 0.0020 | P3 96.20 | P4 74.27 | P5 94.83 | P6 73.28
+[INFO][Experiment] [alpha=0.000] Epoch 012 | Loss 0.0016 | P3 97.08 | P4 59.94 | P5 95.69 | P6 55.17
+[INFO][Experiment] [alpha=0.000] Epoch 013 | Loss 0.0013 | P3 97.66 | P4 61.40 | P5 96.12 | P6 58.62
+[INFO][Experiment] [alpha=0.000] Epoch 014 | Loss 0.0012 | P3 97.08 | P4 69.59 | P5 96.12 | P6 68.97
+[INFO][Experiment] [alpha=0.000] Epoch 015 | Loss 0.0010 | P3 96.78 | P4 72.22 | P5 96.12 | P6 72.84
+[INFO][Experiment] [alpha=0.000] Epoch 016 | Loss 0.0009 | P3 96.78 | P4 69.88 | P5 95.26 | P6 68.10
+[INFO][Experiment] [alpha=0.000] Epoch 017 | Loss 0.0009 | P3 96.78 | P4 73.98 | P5 95.69 | P6 70.69
+[INFO][Experiment] [alpha=0.000] Epoch 018 | Loss 0.0008 | P3 96.78 | P4 74.85 | P5 95.69 | P6 73.71
+[INFO][Experiment] [alpha=0.000] Epoch 019 | Loss 0.0006 | P3 97.08 | P4 73.98 | P5 95.69 | P6 73.28
+[INFO][Experiment] [alpha=0.000] Epoch 020 | Loss 0.0006 | P3 97.66 | P4 71.93 | P5 96.12 | P6 71.55
+[INFO][Experiment] [alpha=0.000] Epoch 021 | Loss 0.0006 | P3 97.08 | P4 73.10 | P5 95.69 | P6 70.69
+[INFO][Experiment] [alpha=0.000] Epoch 022 | Loss 0.0006 | P3 97.66 | P4 73.39 | P5 94.40 | P6 69.83
+[INFO][Experiment] [alpha=0.000] Epoch 023 | Loss 0.0005 | P3 96.78 | P4 72.51 | P5 95.69 | P6 68.10
+[INFO][Experiment] Early stopping triggered at epoch 23 (best seen accuracy = 97.66)
+[INFO][Experiment] === Best scores observed for this run ===
+[INFO][Experiment] P3 97.66 (epoch 13) | P4 74.85 (epoch 18) | P5 96.12 (epoch 8) | P6 73.71 (epoch 18)
+[INFO][Experiment] Checkpoint saved to: ./checkpoints/v3_German_face_dropout_000pct_alpha0.0_best.pt
+[INFO][Experiment] Detailed results saved to: ./results/v3_German_face_dropout_000pct_alpha0.0_p3_p6.json
+[INFO][Experiment] === Experiment finished ===
+
+
+
+C:\Users\abdul\Desktop\6th Semester\Special topics\polysim-main\FOP>python main.py
+[INFO][Experiment] === Experiment started ===
+[INFO][Experiment] Seed=1 | Device=cpu | Fusion=linear | Version=v3 | Train_Lang=German | #Classes=36 | UnSeen_Lang=English | Missing=face | Ratio=0.05
+[INFO][Experiment] Train CSV: ./feature_tracker/v3_train_German.csv
+[INFO][Experiment] Test  CSV: ./feature_tracker/v3_test_German.csv
+[INFO][Experiment] Unseen CSV: ./feature_tracker/v3_test_English.csv
+[INFO][Experiment] Feature dimensions | Audio=192 | Face=512
+[INFO][Experiment] Model initialized | Params=0.38M
+C:\Users\abdul\miniconda3\Lib\site-packages\transformers\utils\generic.py:441: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+[INFO][Experiment] === Training with alpha=0.000 ===
+[INFO][Experiment] [alpha=0.000] Epoch 000 | Loss 2.2795 | P3 42.98 | P4 29.82 | P5 27.59 | P6 12.07
+[INFO][Experiment] [alpha=0.000] Epoch 001 | Loss 0.4503 | P3 76.32 | P4 39.18 | P5 78.88 | P6 28.02
+[INFO][Experiment] [alpha=0.000] Epoch 002 | Loss 0.1084 | P3 82.16 | P4 55.26 | P5 86.21 | P6 46.55
+[INFO][Experiment] [alpha=0.000] Epoch 003 | Loss 0.0410 | P3 90.94 | P4 55.85 | P5 94.40 | P6 43.97
+[INFO][Experiment] [alpha=0.000] Epoch 004 | Loss 0.0176 | P3 92.98 | P4 55.56 | P5 95.26 | P6 47.84
+[INFO][Experiment] [alpha=0.000] Epoch 005 | Loss 0.0095 | P3 94.44 | P4 69.88 | P5 94.40 | P6 63.79
+[INFO][Experiment] [alpha=0.000] Epoch 006 | Loss 0.0060 | P3 96.20 | P4 73.10 | P5 95.69 | P6 67.67
+[INFO][Experiment] [alpha=0.000] Epoch 007 | Loss 0.0041 | P3 97.08 | P4 69.01 | P5 94.83 | P6 63.79
+[INFO][Experiment] [alpha=0.000] Epoch 008 | Loss 0.0032 | P3 97.08 | P4 65.79 | P5 96.12 | P6 62.07
+[INFO][Experiment] [alpha=0.000] Epoch 009 | Loss 0.0024 | P3 96.78 | P4 71.05 | P5 94.83 | P6 69.83
+[INFO][Experiment] [alpha=0.000] Epoch 010 | Loss 0.0022 | P3 96.78 | P4 68.13 | P5 94.40 | P6 62.07
+[INFO][Experiment] [alpha=0.000] Epoch 011 | Loss 0.0020 | P3 96.20 | P4 74.27 | P5 94.83 | P6 73.28
+[INFO][Experiment] [alpha=0.000] Epoch 012 | Loss 0.0016 | P3 97.08 | P4 59.94 | P5 95.69 | P6 55.17
+[INFO][Experiment] [alpha=0.000] Epoch 013 | Loss 0.0013 | P3 97.66 | P4 61.40 | P5 96.12 | P6 58.62
+[INFO][Experiment] [alpha=0.000] Epoch 014 | Loss 0.0012 | P3 97.08 | P4 69.59 | P5 96.12 | P6 68.97
+[INFO][Experiment] [alpha=0.000] Epoch 015 | Loss 0.0010 | P3 96.78 | P4 72.22 | P5 96.12 | P6 72.84
+[INFO][Experiment] [alpha=0.000] Epoch 016 | Loss 0.0009 | P3 96.78 | P4 69.88 | P5 95.26 | P6 68.10
+[INFO][Experiment] [alpha=0.000] Epoch 017 | Loss 0.0009 | P3 96.78 | P4 73.98 | P5 95.69 | P6 70.69
+[INFO][Experiment] [alpha=0.000] Epoch 018 | Loss 0.0008 | P3 96.78 | P4 74.85 | P5 95.69 | P6 73.71
+[INFO][Experiment] [alpha=0.000] Epoch 019 | Loss 0.0006 | P3 97.08 | P4 73.98 | P5 95.69 | P6 73.28
+[INFO][Experiment] [alpha=0.000] Epoch 020 | Loss 0.0006 | P3 97.66 | P4 71.93 | P5 96.12 | P6 71.55
+[INFO][Experiment] [alpha=0.000] Epoch 021 | Loss 0.0006 | P3 97.08 | P4 73.10 | P5 95.69 | P6 70.69
+[INFO][Experiment] [alpha=0.000] Epoch 022 | Loss 0.0006 | P3 97.66 | P4 73.39 | P5 94.40 | P6 69.83
+[INFO][Experiment] [alpha=0.000] Epoch 023 | Loss 0.0005 | P3 96.78 | P4 72.51 | P5 95.69 | P6 68.10
+[INFO][Experiment] Early stopping triggered at epoch 23 (best seen accuracy = 97.66)
+[INFO][Experiment] === Best scores observed for this run ===
+[INFO][Experiment] P3 97.66 (epoch 13) | P4 74.85 (epoch 18) | P5 96.12 (epoch 8) | P6 73.71 (epoch 18)
+[INFO][Experiment] Checkpoint saved to: ./checkpoints/v3_German_face_dropout_005pct_alpha0.0_best.pt
+[INFO][Experiment] Detailed results saved to: ./results/v3_German_face_dropout_005pct_alpha0.0_p3_p6.json
+[INFO][Experiment] === Experiment finished ===
+
+C:\Users\abdul\Desktop\6th Semester\Special topics\polysim-main\FOP>python main.py
+[INFO][Experiment] === Experiment started ===
+[INFO][Experiment] Seed=1 | Device=cpu | Fusion=linear | Version=v3 | Train_Lang=German | #Classes=36 | UnSeen_Lang=English | Missing=face | Ratio=0.10
+[INFO][Experiment] Train CSV: ./feature_tracker/v3_train_German.csv
+[INFO][Experiment] Test  CSV: ./feature_tracker/v3_test_German.csv
+[INFO][Experiment] Unseen CSV: ./feature_tracker/v3_test_English.csv
+[INFO][Experiment] Feature dimensions | Audio=192 | Face=512
+[INFO][Experiment] Model initialized | Params=0.38M
+C:\Users\abdul\miniconda3\Lib\site-packages\transformers\utils\generic.py:441: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+[INFO][Experiment] === Training with alpha=0.000 ===
+[INFO][Experiment] [alpha=0.000] Epoch 000 | Loss 2.3622 | P3 43.27 | P4 26.61 | P5 23.28 | P6 13.36
+[INFO][Experiment] [alpha=0.000] Epoch 001 | Loss 0.5826 | P3 76.61 | P4 64.62 | P5 78.45 | P6 58.19
+[INFO][Experiment] [alpha=0.000] Epoch 002 | Loss 0.1822 | P3 80.70 | P4 74.27 | P5 81.90 | P6 63.36
+[INFO][Experiment] [alpha=0.000] Epoch 003 | Loss 0.0869 | P3 83.63 | P4 75.15 | P5 93.97 | P6 75.00
+[INFO][Experiment] [alpha=0.000] Epoch 004 | Loss 0.0433 | P3 85.96 | P4 73.10 | P5 94.40 | P6 78.02
+[INFO][Experiment] [alpha=0.000] Epoch 005 | Loss 0.0295 | P3 87.13 | P4 75.44 | P5 95.26 | P6 81.90
+[INFO][Experiment] [alpha=0.000] Epoch 006 | Loss 0.0224 | P3 86.26 | P4 78.07 | P5 93.97 | P6 81.90
+[INFO][Experiment] [alpha=0.000] Epoch 007 | Loss 0.0105 | P3 87.72 | P4 79.24 | P5 94.83 | P6 80.60
+[INFO][Experiment] [alpha=0.000] Epoch 008 | Loss 0.0141 | P3 87.13 | P4 79.53 | P5 96.12 | P6 81.90
+[INFO][Experiment] [alpha=0.000] Epoch 009 | Loss 0.0127 | P3 87.13 | P4 78.65 | P5 95.69 | P6 86.64
+[INFO][Experiment] [alpha=0.000] Epoch 010 | Loss 0.0139 | P3 89.77 | P4 80.12 | P5 95.69 | P6 87.50
+[INFO][Experiment] [alpha=0.000] Epoch 011 | Loss 0.0067 | P3 88.89 | P4 79.82 | P5 94.83 | P6 86.64
+[INFO][Experiment] [alpha=0.000] Epoch 012 | Loss 0.0045 | P3 88.01 | P4 78.95 | P5 94.83 | P6 87.07
+[INFO][Experiment] [alpha=0.000] Epoch 013 | Loss 0.0066 | P3 88.89 | P4 78.07 | P5 95.26 | P6 85.78
+[INFO][Experiment] [alpha=0.000] Epoch 014 | Loss 0.0069 | P3 88.89 | P4 80.12 | P5 95.69 | P6 86.21
+[INFO][Experiment] [alpha=0.000] Epoch 015 | Loss 0.0045 | P3 88.30 | P4 80.70 | P5 94.83 | P6 84.48
+[INFO][Experiment] [alpha=0.000] Epoch 016 | Loss 0.0023 | P3 88.89 | P4 80.41 | P5 95.69 | P6 87.07
+[INFO][Experiment] [alpha=0.000] Epoch 017 | Loss 0.0063 | P3 88.30 | P4 80.70 | P5 95.26 | P6 85.78
+[INFO][Experiment] [alpha=0.000] Epoch 018 | Loss 0.0027 | P3 86.84 | P4 80.70 | P5 94.83 | P6 86.21
+[INFO][Experiment] [alpha=0.000] Epoch 019 | Loss 0.0037 | P3 86.84 | P4 80.70 | P5 94.83 | P6 84.48
+[INFO][Experiment] [alpha=0.000] Epoch 020 | Loss 0.0018 | P3 88.30 | P4 77.19 | P5 94.83 | P6 81.90
+[INFO][Experiment] Early stopping triggered at epoch 20 (best seen accuracy = 89.77)
+[INFO][Experiment] === Best scores observed for this run ===
+[INFO][Experiment] P3 89.77 (epoch 10) | P4 80.70 (epoch 15) | P5 96.12 (epoch 8) | P6 87.50 (epoch 10)
+[INFO][Experiment] Checkpoint saved to: ./checkpoints/v3_German_face_dropout_010pct_alpha0.0_best.pt
+[INFO][Experiment] Detailed results saved to: ./results/v3_German_face_dropout_010pct_alpha0.0_p3_p6.json
+[INFO][Experiment] === Experiment finished ===
+
+
+C:\Users\abdul\Desktop\6th Semester\Special topics\polysim-main\FOP>python main.py
+[INFO][Experiment] === Experiment started ===
+[INFO][Experiment] Seed=1 | Device=cpu | Fusion=linear | Version=v3 | Train_Lang=German | #Classes=36 | UnSeen_Lang=English | Missing=face | Ratio=0.15
+[INFO][Experiment] Train CSV: ./feature_tracker/v3_train_German.csv
+[INFO][Experiment] Test  CSV: ./feature_tracker/v3_test_German.csv
+[INFO][Experiment] Unseen CSV: ./feature_tracker/v3_test_English.csv
+[INFO][Experiment] Feature dimensions | Audio=192 | Face=512
+[INFO][Experiment] Model initialized | Params=0.38M
+C:\Users\abdul\miniconda3\Lib\site-packages\transformers\utils\generic.py:441: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+[INFO][Experiment] === Training with alpha=0.000 ===
+[INFO][Experiment] [alpha=0.000] Epoch 000 | Loss 2.4299 | P3 39.47 | P4 22.22 | P5 23.28 | P6 13.36
+[INFO][Experiment] [alpha=0.000] Epoch 001 | Loss 0.6857 | P3 76.61 | P4 59.36 | P5 77.59 | P6 53.02
+[INFO][Experiment] [alpha=0.000] Epoch 002 | Loss 0.2362 | P3 79.24 | P4 72.22 | P5 81.47 | P6 61.64
+[INFO][Experiment] [alpha=0.000] Epoch 003 | Loss 0.1088 | P3 82.16 | P4 76.61 | P5 92.24 | P6 68.53
+[INFO][Experiment] [alpha=0.000] Epoch 004 | Loss 0.0655 | P3 83.92 | P4 76.61 | P5 94.83 | P6 73.28
+[INFO][Experiment] [alpha=0.000] Epoch 005 | Loss 0.0417 | P3 86.55 | P4 79.53 | P5 95.69 | P6 76.72
+[INFO][Experiment] [alpha=0.000] Epoch 006 | Loss 0.0248 | P3 87.13 | P4 78.95 | P5 93.53 | P6 76.72
+[INFO][Experiment] [alpha=0.000] Epoch 007 | Loss 0.0173 | P3 87.72 | P4 82.16 | P5 96.12 | P6 86.64
+[INFO][Experiment] [alpha=0.000] Epoch 008 | Loss 0.0135 | P3 86.26 | P4 80.99 | P5 96.55 | P6 88.79
+[INFO][Experiment] [alpha=0.000] Epoch 009 | Loss 0.0111 | P3 86.55 | P4 79.82 | P5 96.55 | P6 88.36
+[INFO][Experiment] [alpha=0.000] Epoch 010 | Loss 0.0167 | P3 87.13 | P4 82.46 | P5 96.55 | P6 87.50
+[INFO][Experiment] [alpha=0.000] Epoch 011 | Loss 0.0088 | P3 86.84 | P4 80.12 | P5 96.12 | P6 88.79
+[INFO][Experiment] [alpha=0.000] Epoch 012 | Loss 0.0038 | P3 85.67 | P4 79.24 | P5 96.55 | P6 87.50
+[INFO][Experiment] [alpha=0.000] Epoch 013 | Loss 0.0035 | P3 87.13 | P4 78.95 | P5 96.55 | P6 87.50
+[INFO][Experiment] [alpha=0.000] Epoch 014 | Loss 0.0054 | P3 87.43 | P4 79.82 | P5 96.55 | P6 88.36
+[INFO][Experiment] [alpha=0.000] Epoch 015 | Loss 0.0033 | P3 86.84 | P4 79.82 | P5 96.55 | P6 87.93
+[INFO][Experiment] [alpha=0.000] Epoch 016 | Loss 0.0034 | P3 87.13 | P4 80.41 | P5 96.98 | P6 90.09
+[INFO][Experiment] [alpha=0.000] Epoch 017 | Loss 0.0050 | P3 86.26 | P4 80.99 | P5 96.55 | P6 89.22
+[INFO][Experiment] Early stopping triggered at epoch 17 (best seen accuracy = 87.72)
+[INFO][Experiment] === Best scores observed for this run ===
+[INFO][Experiment] P3 87.72 (epoch 7) | P4 82.46 (epoch 10) | P5 96.98 (epoch 16) | P6 90.09 (epoch 16)
+[INFO][Experiment] Checkpoint saved to: ./checkpoints/v3_German_face_dropout_015pct_alpha0.0_best.pt
+[INFO][Experiment] Detailed results saved to: ./results/v3_German_face_dropout_015pct_alpha0.0_p3_p6.json
+[INFO][Experiment] === Experiment finished ===
+
+C:\Users\abdul\Desktop\6th Semester\Special topics\polysim-main\FOP>python main.py
+[INFO][Experiment] === Experiment started ===
+[INFO][Experiment] Seed=1 | Device=cpu | Fusion=linear | Version=v3 | Train_Lang=German | #Classes=36 | UnSeen_Lang=English | Missing=face | Ratio=0.20
+[INFO][Experiment] Train CSV: ./feature_tracker/v3_train_German.csv
+[INFO][Experiment] Test  CSV: ./feature_tracker/v3_test_German.csv
+[INFO][Experiment] Unseen CSV: ./feature_tracker/v3_test_English.csv
+[INFO][Experiment] Feature dimensions | Audio=192 | Face=512
+[INFO][Experiment] Model initialized | Params=0.38M
+C:\Users\abdul\miniconda3\Lib\site-packages\transformers\utils\generic.py:441: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+[INFO][Experiment] === Training with alpha=0.000 ===
+[INFO][Experiment] [alpha=0.000] Epoch 000 | Loss 2.4982 | P3 36.55 | P4 23.39 | P5 22.41 | P6 14.66
+[INFO][Experiment] [alpha=0.000] Epoch 001 | Loss 0.7975 | P3 76.32 | P4 58.77 | P5 78.02 | P6 52.16
+[INFO][Experiment] [alpha=0.000] Epoch 002 | Loss 0.2645 | P3 78.36 | P4 64.33 | P5 81.03 | P6 56.90
+[INFO][Experiment] [alpha=0.000] Epoch 003 | Loss 0.1351 | P3 83.04 | P4 77.78 | P5 94.40 | P6 69.83
+[INFO][Experiment] [alpha=0.000] Epoch 004 | Loss 0.0741 | P3 84.21 | P4 78.36 | P5 95.26 | P6 82.76
+[INFO][Experiment] [alpha=0.000] Epoch 005 | Loss 0.0426 | P3 86.55 | P4 80.70 | P5 96.12 | P6 85.78
+[INFO][Experiment] [alpha=0.000] Epoch 006 | Loss 0.0235 | P3 86.55 | P4 80.41 | P5 95.69 | P6 86.21
+[INFO][Experiment] [alpha=0.000] Epoch 007 | Loss 0.0172 | P3 87.13 | P4 82.16 | P5 96.12 | P6 88.79
+[INFO][Experiment] [alpha=0.000] Epoch 008 | Loss 0.0178 | P3 87.13 | P4 81.87 | P5 96.12 | P6 91.81
+[INFO][Experiment] [alpha=0.000] Epoch 009 | Loss 0.0079 | P3 86.26 | P4 80.12 | P5 96.55 | P6 90.52
+[INFO][Experiment] [alpha=0.000] Epoch 010 | Loss 0.0105 | P3 87.43 | P4 80.70 | P5 96.98 | P6 90.95
+[INFO][Experiment] [alpha=0.000] Epoch 011 | Loss 0.0090 | P3 87.43 | P4 81.87 | P5 97.41 | P6 91.81
+[INFO][Experiment] [alpha=0.000] Epoch 012 | Loss 0.0048 | P3 86.84 | P4 81.58 | P5 96.55 | P6 91.38
+[INFO][Experiment] [alpha=0.000] Epoch 013 | Loss 0.0035 | P3 86.84 | P4 82.16 | P5 96.55 | P6 90.52
+[INFO][Experiment] [alpha=0.000] Epoch 014 | Loss 0.0046 | P3 86.55 | P4 80.99 | P5 96.98 | P6 91.38
+[INFO][Experiment] [alpha=0.000] Epoch 015 | Loss 0.0038 | P3 86.26 | P4 80.41 | P5 96.55 | P6 90.95
+[INFO][Experiment] [alpha=0.000] Epoch 016 | Loss 0.0030 | P3 87.13 | P4 81.29 | P5 97.84 | P6 92.67
+[INFO][Experiment] [alpha=0.000] Epoch 017 | Loss 0.0029 | P3 86.84 | P4 83.63 | P5 96.98 | P6 92.24
+[INFO][Experiment] [alpha=0.000] Epoch 018 | Loss 0.0024 | P3 85.96 | P4 81.29 | P5 96.55 | P6 90.95
+[INFO][Experiment] [alpha=0.000] Epoch 019 | Loss 0.0021 | P3 86.26 | P4 82.46 | P5 96.12 | P6 90.95
+[INFO][Experiment] [alpha=0.000] Epoch 020 | Loss 0.0012 | P3 86.55 | P4 82.16 | P5 96.55 | P6 90.95
+[INFO][Experiment] Early stopping triggered at epoch 20 (best seen accuracy = 87.43)
+[INFO][Experiment] === Best scores observed for this run ===
+[INFO][Experiment] P3 87.43 (epoch 10) | P4 83.63 (epoch 17) | P5 97.84 (epoch 16) | P6 92.67 (epoch 16)
+[INFO][Experiment] Checkpoint saved to: ./checkpoints/v3_German_face_dropout_020pct_alpha0.0_best.pt
+[INFO][Experiment] Detailed results saved to: ./results/v3_German_face_dropout_020pct_alpha0.0_p3_p6.json
+[INFO][Experiment] === Experiment finished ===
+
+
+
+
+C:\Users\abdul\Desktop\6th Semester\Special topics\polysim-main\FOP>python main.py
+[INFO][Experiment] === Experiment started ===
+[INFO][Experiment] Seed=1 | Device=cpu | Fusion=linear | Version=v3 | Train_Lang=German | #Classes=36 | UnSeen_Lang=English | Missing=face | Ratio=1.00
+[INFO][Experiment] Train CSV: ./feature_tracker/v3_train_German.csv
+[INFO][Experiment] Test  CSV: ./feature_tracker/v3_test_German.csv
+[INFO][Experiment] Unseen CSV: ./feature_tracker/v3_test_English.csv
+[INFO][Experiment] Feature dimensions | Audio=192 | Face=512
+[INFO][Experiment] Model initialized | Params=0.38M
+C:\Users\abdul\miniconda3\Lib\site-packages\transformers\utils\generic.py:441: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+[INFO][Experiment] === Training with alpha=0.000 ===
+[INFO][Experiment] [alpha=0.000] Epoch 000 | Loss 2.9268 | P3 12.57 | P4 16.08 | P5 8.19 | P6 12.07
+[INFO][Experiment] [alpha=0.000] Epoch 001 | Loss 1.0003 | P3 73.10 | P4 73.10 | P5 65.95 | P6 68.10
+[INFO][Experiment] [alpha=0.000] Epoch 002 | Loss 0.2661 | P3 77.49 | P4 77.49 | P5 76.72 | P6 77.16
+[INFO][Experiment] [alpha=0.000] Epoch 003 | Loss 0.1077 | P3 79.82 | P4 79.82 | P5 89.66 | P6 89.66
+[INFO][Experiment] [alpha=0.000] Epoch 004 | Loss 0.0560 | P3 80.99 | P4 80.70 | P5 90.09 | P6 90.09
+[INFO][Experiment] [alpha=0.000] Epoch 005 | Loss 0.0323 | P3 81.29 | P4 80.99 | P5 90.09 | P6 89.22
+[INFO][Experiment] [alpha=0.000] Epoch 006 | Loss 0.0200 | P3 82.46 | P4 82.16 | P5 90.95 | P6 91.81
+[INFO][Experiment] [alpha=0.000] Epoch 007 | Loss 0.0139 | P3 82.75 | P4 83.04 | P5 92.24 | P6 92.67
+[INFO][Experiment] [alpha=0.000] Epoch 008 | Loss 0.0095 | P3 82.75 | P4 83.04 | P5 91.81 | P6 92.24
+[INFO][Experiment] [alpha=0.000] Epoch 009 | Loss 0.0071 | P3 83.63 | P4 83.92 | P5 91.81 | P6 92.24
+[INFO][Experiment] [alpha=0.000] Epoch 010 | Loss 0.0058 | P3 83.63 | P4 83.63 | P5 91.38 | P6 91.38
+[INFO][Experiment] [alpha=0.000] Epoch 011 | Loss 0.0049 | P3 83.33 | P4 83.92 | P5 91.81 | P6 91.81
+[INFO][Experiment] [alpha=0.000] Epoch 012 | Loss 0.0041 | P3 83.04 | P4 82.75 | P5 91.81 | P6 90.95
+[INFO][Experiment] [alpha=0.000] Epoch 013 | Loss 0.0035 | P3 83.33 | P4 83.33 | P5 91.81 | P6 91.81
+[INFO][Experiment] [alpha=0.000] Epoch 014 | Loss 0.0027 | P3 83.92 | P4 83.92 | P5 91.38 | P6 91.81
+[INFO][Experiment] [alpha=0.000] Epoch 015 | Loss 0.0025 | P3 83.04 | P4 83.04 | P5 91.38 | P6 90.95
+[INFO][Experiment] [alpha=0.000] Epoch 016 | Loss 0.0022 | P3 83.04 | P4 83.33 | P5 91.81 | P6 91.81
+[INFO][Experiment] [alpha=0.000] Epoch 017 | Loss 0.0019 | P3 83.63 | P4 83.63 | P5 91.81 | P6 91.81
+[INFO][Experiment] [alpha=0.000] Epoch 018 | Loss 0.0016 | P3 82.75 | P4 83.04 | P5 91.81 | P6 91.81
+[INFO][Experiment] [alpha=0.000] Epoch 019 | Loss 0.0015 | P3 83.04 | P4 83.33 | P5 92.67 | P6 91.38
+[INFO][Experiment] [alpha=0.000] Epoch 020 | Loss 0.0013 | P3 83.33 | P4 83.33 | P5 93.10 | P6 92.67
+[INFO][Experiment] [alpha=0.000] Epoch 021 | Loss 0.0012 | P3 83.04 | P4 82.75 | P5 92.67 | P6 92.67
+[INFO][Experiment] [alpha=0.000] Epoch 022 | Loss 0.0011 | P3 83.04 | P4 83.33 | P5 93.53 | P6 93.53
+[INFO][Experiment] [alpha=0.000] Epoch 023 | Loss 0.0009 | P3 83.33 | P4 83.04 | P5 93.53 | P6 92.24
+[INFO][Experiment] [alpha=0.000] Epoch 024 | Loss 0.0008 | P3 83.04 | P4 83.33 | P5 93.10 | P6 93.10
+[INFO][Experiment] Early stopping triggered at epoch 24 (best seen accuracy = 83.92)
+[INFO][Experiment] === Best scores observed for this run ===
+[INFO][Experiment] P3 83.92 (epoch 14) | P4 83.92 (epoch 9) | P5 93.53 (epoch 22) | P6 93.53 (epoch 22)
+[INFO][Experiment] Checkpoint saved to: ./checkpoints/v3_German_face_dropout_100pct_alpha0.0_best.pt
+[INFO][Experiment] Detailed results saved to: ./results/v3_German_face_dropout_100pct_alpha0.0_p3_p6.json
+[INFO][Experiment] === Experiment finished ===
+
+
+
