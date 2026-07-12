@@ -1,3 +1,0 @@
-sample,identity,true_label,predicted_label,confidence,correct
-original_english,id0001,0,313,0.0026,False
-generated_german,id0001,0,409,0.0029,False

@@ -1,3 +1,0 @@
-sample,identity,true_label,predicted_label,confidence,correct,top5_labels,top5_probs
-original_english,id0001,0,0,0.9999,True,"[0, 17, 34, 33, 19]","[0.9999, 0.0, 0.0, 0.0, 0.0]"
-generated_german,id0001,0,0,0.9541,True,"[0, 17, 33, 34, 19]","[0.9541, 0.0422, 0.0008, 0.0007, 0.0007]"
