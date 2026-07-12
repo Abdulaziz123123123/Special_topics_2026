@@ -1,0 +1,29 @@
+conda create -n polysim python=3.6.5 -y
+conda activate polysim
+conda install pytorch==1.8.0 torchvision==0.9.0 torchaudio==0.8.0 cpuonly -c pytorch -y
+pip install numpy pandas scipy scikit-learn matplotlib tqdm pyyaml tensorboard
+python main.py
+
+added .long() to labels in trainer file
+
+
+[INFO][Experiment] Early stopping triggered at epoch 63(best seen accuracy = 89.47)
+class ExperimentConfig:
+    home_dir = os.path.dirname(os.path.abspath(__file__))
+    seed: int = 1
+    device: str = "cpu"
+    lr: float = 1e-3
+    batch_size: int = 16
+    max_epochs: int = 300
+    num_workers: int = 2
+    alpha_list: List[float] = (0.0,)
+    embedding_dim: int = 512
+    fusion: str = "linear"   # linear | gated
+
+
+====================
+Questions to professor
+====================
+1- what & how to submit
+2- what where we supposed to do in the files?
+3- is it normal to adjust some things in the code to run on my device (cpu, .long(), 
